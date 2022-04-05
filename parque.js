@@ -19,7 +19,7 @@ do{
             temperaturaCelc=Number(prompt("Escriba la temperatura en grados Celcius"))
         }while(isNaN(temperaturaCelc))
         do{
-            acompañanteDos=Number(prompt("Si viene com acompañante escriba 1 si no escriba 2"))
+            acompañanteDos=Number(prompt("Si viene con acompañante escriba 1 si no escriba 2"))
         }while(isNaN(acompañanteDos) || acompañanteDos <1|| acompañanteDos>2)
 
 }
